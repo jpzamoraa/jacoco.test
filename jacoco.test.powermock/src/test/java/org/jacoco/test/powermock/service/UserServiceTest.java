@@ -19,13 +19,13 @@ public class UserServiceTest {
 	@Mock
 	private UserDAO userDaoMock;
 	
-	/*@Test
+	@Test
 	public void testNullUser () {
 		UserDTO dto = null;
 		UserService sr  = new UserService();
 		dto = sr.getUser("juan");
 		assertEquals(dto, null);
-	}*/
+	}
 	
 	@Test
 	public void testGetUser () {
